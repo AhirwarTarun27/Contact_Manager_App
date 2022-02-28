@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.pointer:hover {
+  cursor: pointer;
+}
+
+.boxShadow {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding: 22px;
+  margin: 20px 0px;
+  background-color: wheat;
+  border-radius: 36px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

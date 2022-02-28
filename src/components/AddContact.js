@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 class AddContact extends React.Component {
   state = {
@@ -21,7 +22,7 @@ class AddContact extends React.Component {
     return (
       <div className="ui main">
         <h2>Add Contact</h2>
-        <form className="ui form" onSubmit={this.add}>
+        <form className="ui form boxShadow" onSubmit={this.add}>
           <div className="field">
             <label>Name</label>
             <input
