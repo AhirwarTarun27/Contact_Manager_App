@@ -20,9 +20,14 @@ class AddContact extends React.Component {
 
   render() {
     return (
-      <div className="ui main">
-        <h2>Add Contact</h2>
+      <div
+        className="ui main"
+        style={{
+          marginTop: "5%",
+        }}
+      >
         <form className="ui form boxShadow" onSubmit={this.add}>
+          <h2>Add Contact</h2>
           <div className="field">
             <label>Name</label>
             <input
