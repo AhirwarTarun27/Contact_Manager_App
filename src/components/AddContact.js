@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
+import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 
 class AddContact extends React.Component {
   state = {
     name: "",
     email: "",
   };
-
   add = (e) => {
     e.preventDefault();
     if (this.state.name === "" && this.state.email === "") {
@@ -53,6 +54,9 @@ class AddContact extends React.Component {
             />
           </div>
           <button className="ui button blue">Add</button>
+          <Link to="/">
+            <button className="ui button blue right">Go to Contact-list</button>
+          </Link>
         </form>
       </div>
     );

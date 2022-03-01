@@ -1,15 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ContactCard } from "./ContactCard";
 
 const ContactList = (props) => {
   //   console.log(props);
-  const constacts = [
-    {
-      id: "1",
-      name: "tarun",
-      email: "t@t.com",
-    },
-  ];
   const deleteContactHandler = (id) => {
     props.removeContactHandler(id);
   };
@@ -21,9 +15,15 @@ const ContactList = (props) => {
       <h2
         style={{
           margin: "2%",
+          marginTop: "5%",
+          display: "flex",
+          justifyContent: "space-between",
         }}
       >
         Contact List
+        <Link to="/add">
+          <button className="ui button blue right">Add Contact</button>
+        </Link>
       </h2>
       {renderContact}
     </div>
