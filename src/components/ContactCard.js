@@ -1,10 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 import user from "../images/user.png";
 import "./App.css";
 
 export const ContactCard = (props) => {
   const { id, name, email } = props.contact;
+
+  // const [userData, setUserData] = useState([])
+
+  // console.log("props", props);
   return (
     <div
       className="item"
@@ -17,7 +21,11 @@ export const ContactCard = (props) => {
     >
       <img className="ui avatar image" src={user} alt="user" />
       <div className="content">
-        <Link to={`/contact/${id}`} state={{ contact: props.contact }}>
+        <Link
+          to={{
+            pathname: `/contact/${id}`,
+          }}
+        >
           <div className="header">{name}</div>
           <div>{email}</div>
         </Link>
