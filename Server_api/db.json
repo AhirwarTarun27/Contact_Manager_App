@@ -1,0 +1,34 @@
+{
+  "contacts": [
+    {
+      "name": "tarun",
+      "email": "tarun@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "vishal",
+      "email": "vishal@outlook.in",
+      "id": 2
+    },
+    {
+      "name": "umang",
+      "email": "umang@microsoft.in",
+      "id": 3
+    },
+    {
+      "name": "pepsico",
+      "email": "pepsico@pepsi.com",
+      "id": 4
+    },
+    {
+      "name": "Adidas",
+      "email": "adidas@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "react",
+      "email": "react@redux.com",
+      "id": 6
+    }
+  ]
+}
