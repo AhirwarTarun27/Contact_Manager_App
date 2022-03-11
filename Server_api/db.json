@@ -1,11 +1,6 @@
 {
   "contacts": [
     {
-      "name": "tarun",
-      "email": "tarun@gmail.com",
-      "id": 1
-    },
-    {
       "name": "vishal",
       "email": "vishal@outlook.in",
       "id": 2
@@ -29,6 +24,16 @@
       "name": "react",
       "email": "react@redux.com",
       "id": 6
+    },
+    {
+      "name": "chamarthi",
+      "email": "v@v.com",
+      "id": 7
+    },
+    {
+      "name": "tarun",
+      "email": "hjh@gmail.com",
+      "id": 8
     }
   ]
 }

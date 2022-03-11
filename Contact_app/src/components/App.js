@@ -66,7 +66,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    // localStorage.setItem(localStorageKey, JSON.stringify(contacts));
+    localStorage.setItem("contacts", JSON.stringify(contacts));
   }, [contacts]);
 
   return (
