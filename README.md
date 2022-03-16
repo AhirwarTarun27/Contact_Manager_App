@@ -1,3 +1,5 @@
+---
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=roboto&size=35&color=F7A70E&lines=Contact+Manager+App)](https://git.io/typing-svg)
 
 ---
