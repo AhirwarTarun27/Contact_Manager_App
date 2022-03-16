@@ -11,7 +11,7 @@
 <tr>
 <td>
 This app is made from all the react concepts like state management, React routing, React CRUD Axios, Searching functionlity.
-I used Sematic UI Library.
+For the desigining part I used Sematic UI Library.
 </td>
 </tr>
 </table>
