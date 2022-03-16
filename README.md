@@ -43,5 +43,5 @@ For the desigining part I used Sematic UI Library.
 ## How to use
 - Clone the repo in your local machine
 - Install node_modules in contact_app folder and server_api folder by using cmd **npm i**
-- Type command **npm start** in both the folder terminal
+- Type command **npm start** in both the folder's terminal
 
